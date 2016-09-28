@@ -1,0 +1,30 @@
+{
+  "name": "name_video_stream",
+  "version": "1.0.0",
+  "description": "Video stream (express.js)",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lon03/Node-Video-Stream.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js"
+  ],
+  "author": "M.Martyniuk email: mishanudpsu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lon03/Node-Video-Stream/issues"
+  },
+  "homepage": "https://github.com/Lon03/Node-Video-Stream#readme"
+}
