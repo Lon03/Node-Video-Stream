@@ -52,7 +52,10 @@ function moviesId(req, res, next) {
 
         /* read the stream and send it in installments through the pipe () */
         const stream = fs.createReadStream(movieFile, {start, end})
-        stream.on('open', () => stream.pipe(res))
+        stream.on('open', () => stream.pipe(res));
         stream.on('error', (streamErr) => res.end(streamErr))
+        res.on('close', function() {
+            stream.destroy()
+        })
     })
 }
