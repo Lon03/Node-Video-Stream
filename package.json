@@ -1,5 +1,5 @@
 {
-  "name": "name_video_stream",
+  "name": "node_video_stream",
   "version": "1.0.0",
   "description": "Video stream (express.js)",
   "scripts": {
